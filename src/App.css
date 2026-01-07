@@ -1,0 +1,20 @@
+.scrollContainer {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.pageSection {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.main-content {
+  padding-top: 56px; /* space for fixed navbar */
+}
+
